@@ -16,7 +16,7 @@ function App() {
       axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=789f64ef61a1e1d8be2fb903ea6f19d1`)
         .then(res => {
           setData(res.data)
-          const temp = res.data.main.temp - 273.15
+          const temp = Math.round(res.data.main.temp - 273.15)
           setCelcius(temp)
 
         })//revisar luego
