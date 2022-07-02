@@ -1,0 +1,32 @@
+.Contenedor-Card {
+  text-align: center;
+  margin: 0;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.Card{
+  background-color: rgba(255, 228, 196, 0.468);
+  top: 3rem;
+  box-shadow: 10px 10px 10px 10px rgba(164, 160, 160, 0.338);
+  width:  400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+body{
+  background-image: url(https://cdn.dribbble.com/users/1761137/screenshots/3665783/media/a0c81c1353b549acc87071af39d11530.gif);
+}
+
+.button{
+  color: aliceblue;
+  width: 120px;
+  height: 50px;
+  background-color: rgba(0, 255, 255, 0.637);
+  border: transparent;
+  border-radius: 20px;
+}
+
