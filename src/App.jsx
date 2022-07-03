@@ -50,7 +50,7 @@ function App() {
         </div>
         <h2>"{data.weather?.[0].description}"</h2>
         <h3>Temp: <p> {celcius} {isFahrenheit ? "C" : "F"}°</p>  </h3>
-        <h4>Wind speed <br /> {data.wind?.speed}</h4>
+        <h4>Wind speed <br /> {data.wind?.speed} km/h</h4>
         <h5>Clouds: {data.clouds?.all} %</h5>
        
         <div className='img'>
